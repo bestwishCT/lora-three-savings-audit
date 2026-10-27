@@ -1,0 +1,44 @@
+{
+  "challenge_id": "ai-github-98fdb6f0",
+  "condition": "single_real_call",
+  "model": "chenkun/gpt-5-mini",
+  "completion_id": "chatcmpl-EdWmhLhNmFpmniacxwL7T2edaTGlZ",
+  "usage": {
+    "completion_tokens": 4147,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 2560,
+      "rejected_prediction_tokens": 0
+    },
+    "latency_checkpoint": {
+      "engine_tbt_ms": 9,
+      "engine_ttft_ms": 121,
+      "engine_ttlt_ms": 36002,
+      "pre_inference_ms": 192,
+      "service_tbt_ms": 9,
+      "service_ttft_ms": 469,
+      "service_ttlt_ms": 36340,
+      "user_visible_ttft_ms": 277
+    },
+    "prompt_tokens": 5191,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 9338
+  },
+  "wall_clock_seconds": 40.06,
+  "cost": null,
+  "cost_reason": "Service does not report per-request monetary debit",
+  "output_json_valid": false,
+  "raw_failure": "20 leading-zero integers in start_line/end_line make the raw output invalid JSON",
+  "mechanical_validation": "ranges_valid",
+  "mechanical_errors": [],
+  "evidence_excerpts": 10,
+  "semantic_review": "manual, by the author, non-blind (see audit.md)",
+  "scientific_rerun_claimed": false,
+  "gpu_experiment_claimed": false,
+  "prompt_improvement_claimed": false,
+  "single_call_no_control": true
+}
